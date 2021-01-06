@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  my_py:
+    image: fastpy:1.0
+    ports:
+      - 8181:80
+    volumes:
+      - ./app:/app
+      

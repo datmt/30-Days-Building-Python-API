@@ -3,5 +3,10 @@
 * Create docker-compose.yml file to run the app
 
 # Steps to build image and run 
-``` docker build -t fastpy:1.0 .```
-``` docker-compose up -d ```
+```bash 
+    docker build -t fastpy:1.0 .
+```
+
+```bash  
+    docker-compose up -d 
+```
